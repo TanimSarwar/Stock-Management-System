@@ -1,0 +1,119 @@
+﻿p {
+    font-size: 50px;
+}
+
+.service-box {
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 10px;
+    perspective: 1000px;
+    -webkit-perspective: 1000px;
+    /*border-radius: 5px 30px;*/
+    width: 230px;
+    height: 220px;
+    margin-top: 55px;
+}
+
+    .service-box:hover {
+        cursor: pointer;
+        border-radius: 30px 5px;
+    }
+
+.service-icon {
+    width: 100%;
+    height: 220px;
+    padding: 20px;
+    text-align: center;
+    transition: all .5s ease;
+}
+
+.service-content {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    opacity: 0;
+    width: 100%;
+    height: 220px;
+    padding: 20px;
+    text-align: center;
+}
+
+.service-box .service-icon .front-content {
+    position: relative;
+    top: 80px;
+}
+
+    .service-box .service-icon .front-content i {
+        font-size: 28px;
+        color: #fff;
+        font-weight: normal;
+    }
+
+    .service-box .service-icon .front-content p {
+        font-size: 15px;
+        color: #fff;
+        text-align: center;
+        margin-bottom: 15px;
+        text-transform: uppercase;
+    }
+
+
+.yellow {
+    background-color: #ffc000;
+}
+
+.orange {
+    background-color: #fc7f0c;
+}
+
+.red {
+    background-color: #e84b3a;
+}
+
+.grey {
+    background-color: #474747;
+}
+
+.green {
+    background-color: #006400;
+}
+
+.blue {
+    background-color: #006666;
+}
+
+.khaki {
+    background-color: #999966;
+}
+
+.violet {
+    background-color: #666699;
+}
+
+.service-box:hover .service-icon {
+    background-color: #6b8e23;
+    -webkit-transition-duration: 700ms;
+    -moz-transition-duration: 700ms;
+    -o-transition-duration: 700ms;
+    transition-duration: 700ms;
+
+}
+
+/*.service-box:hover .service-icon {
+    opacity: 0;
+    -webkit-transform: translateY(-110px) rotateX(90deg);
+    -moz-transform: translateY(-110px) rotateX(90deg);
+    -ms-transform: translateY(-110px) rotateX(90deg);
+    -o-transform: translateY(-110px) rotateX(90deg);
+    transform: translateY(-110px) rotateX(90deg);
+}
+
+.service-box:hover .service-content {
+    opacity: 1;
+    -webkit-transform: rotateX(0);
+    -moz-transform: rotateX(0);
+    -ms-transform: rotateX(0);
+    -o-transform: rotateX(0);
+    transform: rotateX(0);*/
+
