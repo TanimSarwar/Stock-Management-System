@@ -2,7 +2,7 @@
 
 <summary>
 <i>Go to this link for the demo video</i>
-<a href="http://www.ironspider.ca/format_text/fontstyles.htm">
+<a href="">
   Stock Management System</a>
 
 # Prerequisite
